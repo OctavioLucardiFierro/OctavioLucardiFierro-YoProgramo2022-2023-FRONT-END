@@ -1,0 +1,47 @@
+{
+    "name": "Octavio Lucardi Fierro",
+    "titulo": "Tecnico en computacion",
+    "foto":"../assets/foto-perfil.png",
+    "linkGithubPersonal":"https://github.com/OctavioLucardiFierro",
+    "linkLinkedin":"https://www.linkedin.com/in/octavio-lucardi-fierro-4aba90251/",
+
+    "Datos":{
+        "nacimiento": "27/07/2003",
+        "Nacionalidad":"Argentino",
+        "Estado": "Soltero",
+        "celular": 1127121689,
+        "Telefono": 49110577,
+        "Mail": "octaviolf2016@gmail.com"
+    },
+    "Estudios":{
+        "primarios":"Florentino Ameghino",
+        "Secundarios": "Escuela Tecnica Nº26 D.E Nº6 Confederacion Suiza"
+    },
+    "EstudiosComplementarios":{
+        "a": "Curso de aprender programando: Desarrollo Web 1 (HTML Y CSS)(2021)",
+        "b": "Curso de aprender programando: Desarrollo Web 2 (Javascript)(2022)",
+        "c": "Curso de aprender programando: Desarrollo de videojuegos con Unity (C#) (2022)",
+        "d": "Curso de Argentina Programa: SeProgramar (Ruby, Gooblestone y Javascript)(2022)"
+    },
+    "ExperienciaLaboral":{
+        "1":"Desarrollo de Páginas web (Diciembre 2020 - Actualidad)",
+        "2":"Desarrollo de videojuegos (Marzo 2022 - Diciembre 2022)",
+        "3":"Empleado de Servicio Técnico (Septiembre 2022 – Diciembre 2022)"
+    },
+    "Aptitudes":{
+        "Manejo de bootstrap": "Uso del framework bootstrap en diferentes proyectos web.",
+        "Manejo de lenguajes de etiquetas y hojas de estilo": "HTML y CSS.",
+        "Manejo de lenguajes": "C#, C + +, Java, JavaScript, PYTHON, PHP y SQL.",
+        "Manejo de herramienta": "Github y Trello.",
+        "Trabajo en equipo":"Participe en el equipo de robótica y programación Convergencia 26 en la First Lego League (FLL) en el año 2019, en la cual el proyecto que llevamos a cabo gano el premio a Mejor Proyecto de Argentina.",
+        "Paquete Office":"Nivel avanzado.",
+        "Idiomas": "Inglés, Nivel intermedio (oral y escrito)."
+    },
+    "Hobbies":{
+        "1": "Programar y jugar videojuegos",
+        "2": "Leer comics y manga",
+        "3": "Natación"
+    }
+
+
+}

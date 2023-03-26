@@ -1,0 +1,321 @@
+/*CSSgeneral/  You can add global styles to this file, and also import other style files */
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+#body{
+    /*background: linear-gradient(150deg, rgb(173, 16, 2), rgb(86, 0, 173), rgb(0, 126, 6));*/
+    background-color: rgb(18, 18, 67);
+}
+/*ESCRIBIR*/
+span{
+   font-size: 30px;
+   text-decoration:underline;
+   display: block; 
+   white-space: nowrap;
+   border-right: 4px solid;
+   width: 26ch;
+
+   animation: typing 2s steps(26), blinck .5s infinite step-end alternate;
+
+   overflow: hidden;
+
+}
+@keyframes typing {
+    from {width: 0}
+   }
+
+@keyframes blinck {
+    50% { border-color: transparent};
+}
+/*-------------------------------------------------------------*/
+.info{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+/*    background:url(../img/fondo.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.mis-datos{
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+}
+.fotoynombre{
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+.foto-perfil{
+    width: 200px;
+    height: 150px;
+    border: black solid 3px;
+    border-radius: 50%;
+}
+
+.accordion{
+    width: 800px;
+}
+.accordion-header{
+    background-color: darkgray;
+}
+
+.accordion-body{
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+.Educacion{
+    color: white;
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.estudios{
+    margin-top: 20px;
+    background-color: darkgrey;
+    padding: 20px;
+    border: rgb(255, 255, 255) solid 2px;
+    max-width: 500px;
+    min-height: 325px;
+}
+.experiencia{
+    border-right: black solid 3px;
+    border-left: black solid 3px;
+    max-width: 300px;
+    padding: 0 15px;
+    margin-top: 25px;
+    min-height: 350px;
+}
+.titulo{
+    text-align: center;
+}
+
+#linkedin{
+    color: rgb(0, 132, 255);
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+#boots{
+    color: rgb(43, 217, 226);
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+#git{
+    color: white;
+    width: 50px;
+    height: 50px;
+}
+.aptitudes{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.aptitud{
+    max-width: 350px;
+    border-right: black solid 3px;
+    /*border-left: black solid 3px;*/
+    color: white;
+}
+.aptitud #ultimo{
+    max-width: 350px;
+    /*border-right: black solid 3px;
+    border-left: black solid 3px;*/
+    color: white;
+}
+h3{
+    text-decoration:underline;
+    color: rgb(111, 158, 0);
+    padding: 0 15px 15px 15px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.descripcion{
+    padding: 0 15px;
+}
+.toda-info{
+    flex-direction: column;
+    color: aliceblue;
+    background-color: rgb(0, 0, 97);
+    border: 3px solid white;
+    width: 1000px;
+}
+.perfil{
+    padding: 0 15px;
+}
+h2{
+    padding: 15px 0;
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top : 50px;
+}
+.hobyes h3{
+justify-content: center;
+}
+.hobyes #hobyes{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0 50px;
+}
+.hobyes #hobyes li{
+    padding: 0 20px;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+
+}
+#ultimo{
+        max-width: 350px;
+        border-right: none;
+        color: white;
+        text-align: center;
+        justify-content: center;
+}
+@media (max-width:1000px){
+    .container{
+        flex-direction: column;
+    }
+
+    .aptitud{
+        max-width: 350px;
+        border-bottom: black solid 3px;
+        border-right: none;
+        color: white;
+    }
+
+    #ultimo{
+        max-width: 350px;
+        border-bottom: none;
+        color: white;
+    }
+    .toda-info{
+        flex-direction: column;
+        color: aliceblue;
+        /*background: linear-gradient(45deg, rgb(173, 16, 2), rgb(86, 0, 173), rgb(0, 126, 6));
+        */border: 3px solid white;
+        width: 50%;
+    }
+}
+/*-----------------------------------*/
+.sectionJ{
+    margin-top: 30px;
+    display :flex;
+    height: 430px;
+    width: 85%;
+}
+
+.sectionJ .imgJuego{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    margin : 0 auto;
+}
+.sectionJ .imgJuego:hover{
+    cursor: crosshair;
+    width: 90%;
+    opacity: 1;
+    filter: contrast(120%);
+    /*transform: scale(1.2);*/
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+}
+
+/*--------------------------------------*/
+@media (max-width:800px){
+    .aptitudes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        text-align: center;
+    }
+
+    .accordion{
+        width: 50%;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .aptitud{
+        max-width: none;
+        border-bottom: black solid 3px;
+        border-right: none;
+        color: white;
+    }
+
+    #ultimo{
+        max-width: 350px;
+        border-bottom: none;
+        color: white;
+    }
+
+    .Educacion{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .estudios{
+        justify-content: center;
+    }
+    .info{
+        flex-direction: column;
+    }
+    .mis-datos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 20px;
+    }
+
+    .toda-info{
+        font-size: 20px;
+    }
+}
+
+#git:hover{
+    color: red;
+}
+#linkedin:hover{
+    color:red;
+}
